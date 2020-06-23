@@ -1,37 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Linear xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/_1"
-        android:paddingBottom="20dp"
-        android:orientation="vertical"
-
-
 
         />
-        <!--android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
 
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="536dp"
+        <!--tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="522dp"
         tools:ignore="MissingConstraints" />-->
 
     <Button
@@ -39,13 +33,10 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/_2"
-        android:orientation="vertical"
 
         />
-        <!--android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        tools:layout_editor_absoluteX="244dp"
-        tools:layout_editor_absoluteY="536dp"
-        tools:ignore="MissingConstraints" />-->
+       <!-- tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="522dp" />-->
 
-</Linear>
+</LinearLayout>

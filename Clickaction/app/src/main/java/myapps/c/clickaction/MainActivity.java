@@ -1,8 +1,9 @@
 package myapps.c.clickaction;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
+import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 
@@ -13,10 +14,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+        Button sendButton = findViewById(R.id.send_button);
+        sendButton.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
-                System.out.println("click");
+                Intent intent = new Intent(getApplication(), SubActivity.class);
+                startActivity(intent);
 
             }
 

@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">RecyclerView</string>
-    <string name="androidx.recyclerview.widget.RecyclerView">my_recycler_view</string>
-    <string name="TextView">text_view</string>
+    <string name="my_recycler_view">my_recycler_view</string>
+    <string name="text_view">text_view</string>
 </resources>

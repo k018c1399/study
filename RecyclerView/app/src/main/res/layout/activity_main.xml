@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
 
-
+<!-- ここで表示画面の大きさを決める-->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/my_recycler_view"
         android:scrollbars="vertical"

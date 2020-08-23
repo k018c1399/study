@@ -2,5 +2,5 @@
     <string name="app_name">Addrecyclerview</string>
     <string name="recycler_view">text_view</string>
     <string name="text_view">text_view</string>
-    <stirng name="button">button</stirng>
+    <string name="Button">button</string>
 </resources>
